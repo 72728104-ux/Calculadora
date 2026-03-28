@@ -11,7 +11,6 @@ function calcular() {
 
     try {
         let resultado = eval(expresion);
-        alert("Resultado: " + resultado);
         document.getElementById("pantalla").value = resultado;
     } catch {
         alert("Error en la operación");
